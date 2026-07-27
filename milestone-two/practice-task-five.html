@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            border: 1px solid magenta;
+            border-radius: 15px;
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            gap: 10px;
+            /* max-width: 100%; */
+        }
+
+        .box-2 {
+            flex-direction: row-reverse;
+            /* width: 50%; */
+        }
+        .box img{
+            max-width: 50%;
+            height: auto;
+        }
+
+    @media screen and (max-width:576px) {
+        .box{
+            flex-direction: column;
+        }
+        
+    }
+    </style>
+</head>
+
+<body>
+    <!-- .news-ontainer>.box-$*2>img[src='images/perfect-that-pic-144255-2.jpg']+.img-info>h1>lorem5^p>lorem50 -->
+    <div class="news-ontainer">
+        <div class="box box-1">
+            <img src="images/perfect-that-pic-144255-2.jpg" alt="">
+            <div class="img-info">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus laborum minima error excepturi!
+                    Iure tempora, ut vitae nihil illo ex alias eaque beatae dolores voluptate doloribus dolore ipsum
+                    nesciunt exercitationem repellendus inventore blanditiis, veniam quos doloremque odit porro itaque
+                    eveniet consequuntur laboriosam! Corporis beatae vel dolor officia asperiores. Nisi, nihil?</p>
+            </div>
+        </div>
+        <div class="box box-2">
+            <img src="images/perfect-that-pic-144255-2.jpg" alt="">
+            <div class="img-info">
+                <h1>Doloremque harum fugit iure quia.</h1>
+                <p>Ex modi, blanditiis omnis optio at saepe eius id corporis ducimus a nihil reprehenderit! Nostrum
+                    mollitia expedita magnam eligendi, illum non deleniti repellendus at iusto suscipit nihil. Adipisci,
+                    optio, nisi eum ex fugiat sint quos amet excepturi obcaecati natus quibusdam expedita odit nihil
+                    ratione maiores soluta tempore laboriosam? Minus, adipisci?</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

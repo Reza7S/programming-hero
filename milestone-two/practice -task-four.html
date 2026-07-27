@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .food-blog{
+
+        }
+
+        .food-blog-container{
+            border: 1px solid rgb(202, 186, 4);
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        .food-blog-container img{
+            max-width: 100%;
+            height: auto;
+        }
+        @media screen and (max-width:576px) {
+            .food-blog-container{
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- .food-blog>.food-blog-container*5>img[src='images/food.avif']+.food-info>h1>lorem3^p>lorem20^btn{Read More} -->
+         <div class="food-blog">
+            <div class="food-blog-container">
+                <img src="images/food.avif" alt="">
+                <div class="food-info">
+                    <h1>Lorem, ipsum dolor.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quisquam numquam cupiditate minima enim dolores itaque, et necessitatibus nam eveniet.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="food-blog-container">
+                <img src="images/food.avif" alt="">
+                <div class="food-info">
+                    <h1>Tenetur, rerum delectus!</h1>
+                    <p>Iusto excepturi eum magnam omnis porro harum ex iure totam amet delectus voluptas ut reiciendis, odit nam veritatis minus? Ex.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="food-blog-container">
+                <img src="images/food.avif" alt="">
+                <div class="food-info">
+                    <h1>Blanditiis, soluta corporis!</h1>
+                    <p>Vero consequatur ut velit libero assumenda et sapiente a doloribus similique minima delectus nesciunt magnam quaerat accusamus repellendus, deserunt voluptatibus.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="food-blog-container">
+                <img src="images/food.avif" alt="">
+                <div class="food-info">
+                    <h1>Aut, unde ea.</h1>
+                    <p>Harum iure esse iusto consequatur sed, cupiditate corporis vero minus amet error aperiam in inventore deleniti voluptatum odio eligendi laboriosam?</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="food-blog-container">
+                <img src="images/food.avif" alt="">
+                <div class="food-info">
+                    <h1>Voluptate, libero vero.</h1>
+                    <p>Molestiae iusto facilis velit ipsam veniam debitis officia quas dolorum odit eum nisi explicabo nobis id, adipisci dolorem ullam quaerat?</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+         </div>
+</body>
+</html>
